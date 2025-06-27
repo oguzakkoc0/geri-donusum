@@ -114,7 +114,7 @@ class _CameraPageState extends State<CameraPage> {
   }
 
   Future<String?> analyzeWithGemini(Uint8List imageBytes) async {
-    const apiKey = "AIzaSyA7cyWrNOubnSx0UddT4AQLXqVJ_cgOjbg";
+    const apiKey = "-";
     final url = Uri.parse(
         "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=$apiKey");
 
